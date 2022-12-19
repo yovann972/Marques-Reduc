@@ -1,7 +1,7 @@
 ---
 title: Marques Reduc
 subtitle: Toutes les grandes marques
-image: img/logos-de-marques.jpg
+image: img/meilleures-marques-de-maroquinerie-1536x864.jpg
 blurb:
   heading: Why Kaldi?
   text: Kaldi is the coffee store for everyone who believes that great coffee
