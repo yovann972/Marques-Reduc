@@ -7403,16 +7403,17 @@
   dependencies:
     "react-textarea-autosize" "^8.0.0"
 
-"netlify-plugin-cypress@^1.2.0":
-  "integrity" "sha512-BC/AHndIPfafQihDMxLPdlk7jPZeevwYNzE2VHL0hKgcxlrdPCygjx9yYhFAqV20jJe2QYpRucTWrBTelnHd/A=="
-  "resolved" "https://registry.npmjs.org/netlify-plugin-cypress/-/netlify-plugin-cypress-1.11.1.tgz"
-  "version" "1.11.1"
+"netlify-plugin-cypress@^2.2.0":
+  "integrity" "sha512-J8dt12slBztXLdEH9XCBiEgkbJjM1RVMcHmJrnRFydh2y0lGtGEN5OmMeCKKZ7Jvv7rrxMvVcuvtHNi+D4dq2Q=="
+  "resolved" "https://registry.npmjs.org/netlify-plugin-cypress/-/netlify-plugin-cypress-2.2.0.tgz"
+  "version" "2.2.0"
   dependencies:
     "common-tags" "1.8.0"
     "debug" "4.1.1"
     "got" "10.7.0"
     "local-web-server" "^4.2.1"
     "puppeteer" "^7.0.1"
+    "ramda" "0.27.1"
 
 "nice-try@^1.0.4":
   "integrity" "sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ=="
@@ -8799,6 +8800,11 @@
   "integrity" "sha512-RKJ22hX8mHe3Y6wH/N3wCM6BWtjaxIyyUIkpHOvfFnxdI4yD4tBXEBKSbriGujF6jnSVkJrffuo6vxACiSSxIw=="
   "resolved" "https://registry.npmjs.org/quickselect/-/quickselect-2.0.0.tgz"
   "version" "2.0.0"
+
+"ramda@0.27.1":
+  "integrity" "sha512-PgIdVpn5y5Yns8vqb8FzBUEYn98V3xcPgawAkkgj0YJ0qDsnHCiNmZYfOGMgOvoB0eWFLpYbhxUR3mxfDIMvpw=="
+  "resolved" "https://registry.npmjs.org/ramda/-/ramda-0.27.1.tgz"
+  "version" "0.27.1"
 
 "randombytes@^2.1.0":
   "integrity" "sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ=="
