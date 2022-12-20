@@ -9,8 +9,8 @@ blurb:
 #   heading: 
 #   text: 
 products:
-  - image: img/nike-tn.png
+  - image: img/nike-tn.jpg
     text: 
-  - image: /img/sac-lacoste.png
+  - image: /img/sac-lacoste.jpg
     text: 
 ---
