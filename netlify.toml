@@ -2,7 +2,7 @@
   NETLIFY_USE_YARN = "true"
   YARN_VERSION = "1.22.17"
 
-[build]
+[build.command]
   command = "yarn build"
   publish = "dist"
 
