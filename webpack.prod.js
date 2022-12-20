@@ -11,7 +11,7 @@ module.exports = merge(common, {
   mode: "production",
 
   output: {
-    filename: "[name].[chunkhash].js",
+    filename: "[name].[contenthash].js",
     chunkFilename: "[id].[contenthash].css",
     path: path.resolve(__dirname, "dist")
   },
