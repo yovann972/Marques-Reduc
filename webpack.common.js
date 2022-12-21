@@ -45,7 +45,7 @@ module.exports = {
     ],
   },
 
-  plugins: [].concat(devMode ? [    
+  plugins: [   
     new AssetsPlugin({
     filename: "webpack.json",
     path: path.join(process.cwd(), "site/data"),
@@ -61,5 +61,5 @@ module.exports = {
     filename: "admin/index.html",
     template: 'src/cms.html',
     inject: true,
-  })] : [new MiniCssExtractPlugin()])
+  })]
 };
