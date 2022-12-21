@@ -61,5 +61,9 @@ module.exports = {
     filename: "admin/index.html",
     template: 'src/cms.html',
     inject: true,
+  }),      
+  new MiniCssExtractPlugin({
+    filename: "[name].[contenthash].css",
+    chunkFilename: "[id].[contenthash].css"
   })]
 };
