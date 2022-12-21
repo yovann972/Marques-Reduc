@@ -4,6 +4,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const AssetsPlugin = require("assets-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const devMode = process.env.NODE_ENV !== "production"
 
 module.exports = {
   entry: {
@@ -22,7 +23,7 @@ module.exports = {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
         loader: "file-loader",
         options: {
-          name: "name=/[filehash].[ext]"
+          name: "name=/[contenthash].[ext]"
         }
       },
       {
@@ -35,13 +36,13 @@ module.exports = {
         test: /\.(sa|sc|c)ss$/,
         exclude: /node_modules/,
         use: [
-          MiniCssExtractPlugin.loader,
+          devMode ? "style-loader" : MiniCssExtractPlugin.loader,
           "css-loader",
           "postcss-loader",
           "sass-loader"
-        ]
-      }
-    ]
+        ],
+      },
+    ],
   },
 
   plugins: [
