@@ -31,10 +31,7 @@ module.exports = merge(common, {
         },
         exclude: /\/node_modules\//,
       }),
-      new MiniCssExtractPlugin({
-        filename: "[name].[contenthash].css",
-        chunkFilename: "[id].[contenthash].css"
-      }),
+      new MiniCssExtractPlugin(),
       new CssMinimizerPlugin(),
     ]
   }
