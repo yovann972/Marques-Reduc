@@ -9,6 +9,12 @@ const common = require("./webpack.common.js");
 
 module.exports = merge(common, {
   mode: "production",
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  },
+  devtool: false,
 
   output: {
     filename: "[name].[contenthash].js",
