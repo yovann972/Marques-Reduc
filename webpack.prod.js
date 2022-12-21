@@ -35,7 +35,7 @@ module.exports = merge(common, {
         filename: "[name].[contenthash].css",
         chunkFilename: "[id].[contenthash].css"
       }),
-      new CssMinimizerPlugin(),
+
     ]
   }
 });
