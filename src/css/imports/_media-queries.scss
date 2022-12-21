@@ -1,6 +1,6 @@
 
-@media screen and (--breakpoint-not-small){};
+@custom-media --breakpoint-not-small (min-width: 40em);
 
-@media screen and (--breakpoint-medium){};
+@custom-media --breakpoint-medium (min-width: 50em);
 
-@media screen and (--breakpoint-large){};
+@custom-media --breakpoint-large (min-width: 60em);
