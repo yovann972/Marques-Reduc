@@ -32,7 +32,7 @@ module.exports = {
         options: {cacheDirectory: true}
       },
       {
-        test: /\.(sa|sc|c)ss$/,
+        test: /\.(scss|css)$/,
         exclude: /node_modules/,
         use: [
           "style-loader", 
