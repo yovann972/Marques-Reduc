@@ -1,10 +1,10 @@
 ---
-title: Sacoche homme Lacoste 
-date: 2017-01-04T15:04:10.000Z
-description: >-
-  Sportive, contemporaine, fonctionnelle. Une sacoche qui combine style et esprit pratique. Lacoste, tout simplement.
-image: /img/eclipse-B88.jpg
+title: Sacoche homme Lacoste
+date: 2022-12-16T07:00:10.000Z
 Urls: https://www.lacoste.com/fr/lacoste/homme/sacs-petite-maroquinerie/sacoches-pochettes/sacoche-homme-lacoste/NH4046LV.html?color=B88&size=00
+description: Sportive, contemporaine, fonctionnelle. Une sacoche qui combine
+  style et esprit pratique. Lacoste, tout simplement.
+image: /img/eclipse-B88.jpg
 ---
 
 
