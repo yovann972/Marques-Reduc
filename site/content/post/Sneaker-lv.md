@@ -1,6 +1,6 @@
 ---
 title: "Sneaker LV Archlight "
-date: 2022-12-20T10:38:57.134Z
+date: 2022-12-19T10:38:57.134Z
 Urls: https://fr.louisvuitton.com/fra-fr/produits/sneaker-lv-archlight-nvprod3930059v/1AAW30
 description: Cette sneaker LV Archlight emblématique est revisitée en denim
   Monogram avec une bordure en cuir de veau dans l'esprit de la collection
